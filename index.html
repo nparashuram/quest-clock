@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Clock - Simple Clock App for Meta Quest</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 2rem;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-card h3 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .github-link {
+            display: inline-block;
+            background: #24292e;
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        
+        .github-link:hover {
+            transform: translateY(-2px);
+        }
+        
+        .clock-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+            
+            .content {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="clock-icon">🕐</div>
+            <h1>Quest Clock</h1>
+            <p>A simple, elegant clock app designed specifically for Meta Quest headsets</p>
+        </div>
+        
+        <div class="content">
+            <h2>About Quest Clock</h2>
+            <p>
+                Quest Clock is a lightweight, feature-rich clock application built specifically for the Meta Quest platform. 
+                Designed with simplicity and performance in mind, it provides essential timekeeping functionality without 
+                overwhelming the user interface or consuming excessive system resources.
+            </p>
+            
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>🕐 Digital Clock</h3>
+                    <p>Clean, easy-to-read digital time display with current date. Perfect for quick time checks in VR.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>⏰ Alarm</h3>
+                    <p>Set custom alarms with an intuitive time picker. Get notified when it's time to take breaks or switch activities.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>⏱️ Stopwatch</h3>
+                    <p>Track elapsed time with start, stop, and reset functionality. Great for timing VR sessions or workouts.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <h3>⏲️ Timer</h3>
+                    <p>Countdown timer with automatic reset. Set custom durations for focused work sessions or meditation.</p>
+                </div>
+            </div>
+            
+            <h2>Performance & Optimization</h2>
+            <p>
+                Quest Clock is designed to be incredibly lightweight and efficient, making it perfect for VR environments 
+                where performance and battery life are crucial.
+            </p>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>638KB</h3>
+                    <p>APK Size</p>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>1</h3>
+                    <p>Dependency</p>
+                </div>
+                
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Java Code</p>
+                </div>
+            </div>
+            
+            <h3>Optimization Highlights:</h3>
+            <ul style="margin: 1rem 0; padding-left: 2rem;">
+                <li><strong>Minimal Dependencies:</strong> Only uses essential AndroidX AppCompat library</li>
+                <li><strong>Resource Shrinking:</strong> Aggressive ProGuard optimization removes unused code</li>
+                <li><strong>Vector Graphics:</strong> Uses scalable vector drawables instead of bitmap images</li>
+                <li><strong>Efficient UI:</strong> Clean, minimal interface with translucent backgrounds</li>
+                <li><strong>Memory Optimized:</strong> Designed to use minimal RAM and CPU resources</li>
+            </ul>
+            
+            <h2>Technical Details</h2>
+            <p>
+                Built with modern Android development practices, Quest Clock features a clean architecture with separate 
+                activities for each function. The app uses Android's native TimePickerDialog for intuitive time selection, 
+                implements proper alarm permissions for Android 12+, and includes comprehensive error handling.
+            </p>
+            
+            <h2>Get the Code</h2>
+            <p>
+                Quest Clock is open source and available on GitHub. Feel free to explore the code, contribute improvements, 
+                or use it as a reference for your own Quest applications.
+            </p>
+            
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="https://github.com/nparashuram/quest-clock" class="github-link" target="_blank">
+                    📁 View on GitHub
+                </a>
+            </div>
+        </div>
+        
+        <div class="content" style="text-align: center; color: #666;">
+            <p>Built with ❤️ for the Meta Quest community</p>
+            <p>© 2024 Quest Clock - A simple clock app for Quest</p>
+        </div>
+    </div>
+</body>
+</html>
