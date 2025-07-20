@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="stopwatch">Stopwatch</string>
+    <string name="timer">Timer</string>
+    <string name="alarm">Alarm</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="pause">Pause</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="cancel_alarm">Cancel</string>
+    <string name="time_up">Time\'s Up!</string>
+    <string name="start_stopwatch">Start Stopwatch</string>
+    <string name="start_timer">Start Timer</string>
+</resources> 

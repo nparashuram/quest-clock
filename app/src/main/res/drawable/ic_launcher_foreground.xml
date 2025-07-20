@@ -1,0 +1,62 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.6"
+        android:scaleY="0.6"
+        android:translateX="21.6"
+        android:translateY="21.6">
+        <!-- Clock face background -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M54,54m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+        <path
+            android:fillColor="@color/black"
+            android:pathData="M54,54m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0" />
+        
+        <!-- Hour markers -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M54,20L54,30" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M54,78L54,88" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M20,54L30,54" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M78,54L88,54" />
+        
+        <!-- Center dot -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M54,54m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+        
+        <!-- Hour hand (shorter, medium thickness) -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M54,54L54,28" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M51.5,54L56.5,54" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M51.5,28L56.5,28" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M51.5,28L51.5,54L56.5,54L56.5,28Z" />
+        
+        <!-- Minute hand (longer, medium thickness) -->
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M54,54L72,54" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M72,51.5L72,56.5" />
+        <path
+            android:fillColor="@color/white"
+            android:pathData="M54,51.5L72,51.5L72,56.5L54,56.5Z" />
+    </group>
+</vector> 
