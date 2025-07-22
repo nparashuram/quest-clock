@@ -1,12 +1,12 @@
-# Privacy Policy for Quest Clock
+# Privacy Policy for Clock app for Quest
 
 **Effective Date:** [Insert Date]
 
-At **Quest Clock**, we value your privacy. This Privacy Policy outlines how we handle your data and ensures you have a safe and secure experience using our app.
+At **Clock app for Quest**, we value your privacy. This Privacy Policy outlines how we handle your data and ensures you have a safe and secure experience using our app.
 
 ## No Data Collection
 
-**Quest Clock** does not collect any personal data from users. The app operates entirely within the Meta Quest environment, and no information is gathered or stored by us.
+**Clock app for Quest** does not collect any personal data from users. The app operates entirely within the Meta Quest environment, and no information is gathered or stored by us.
 
 - We do **not** collect any personal identifiable information (PII).
 - We do **not** store any data related to your usage of the app.
@@ -24,4 +24,4 @@ We may update this Privacy Policy from time to time. If we make changes, we will
 
 If you have any questions about this Privacy Policy, feel free to contact us
 
-Thank you for choosing Quest Clock!
+Thank you for choosing Clock app for Quest!
