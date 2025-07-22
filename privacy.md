@@ -1,7 +1,5 @@
 # Privacy Policy for Clock app for Quest
 
-**Effective Date:** [Insert Date]
-
 At **Clock app for Quest**, we value your privacy. This Privacy Policy outlines how we handle your data and ensures you have a safe and secure experience using our app.
 
 ## No Data Collection
